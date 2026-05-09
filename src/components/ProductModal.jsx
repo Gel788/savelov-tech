@@ -92,7 +92,7 @@ export default function ProductModal({ product: p, onClose }) {
                 {/* CTA */}
                 <div style={{ marginTop: 'auto', display: 'flex', flexDirection: 'column', gap: 10 }}>
                   <a
-                    href="tel:+79991234567"
+                    href="tel:+79773510580"
                     className="btn-accent"
                     style={{ width: '100%', justifyContent: 'center', fontSize: 14 }}
                   >
@@ -102,7 +102,7 @@ export default function ProductModal({ product: p, onClose }) {
                     Уточнить наличие и цену
                   </a>
                   <a
-                    href="https://t.me/technotochka_savelovo"
+                    href="https://t.me/XiArmo"
                     target="_blank" rel="noopener noreferrer"
                     className="btn-ghost"
                     style={{ width: '100%', justifyContent: 'center', fontSize: 14 }}
@@ -141,7 +141,7 @@ export default function ProductModal({ product: p, onClose }) {
                   borderRadius: 14,
                 }}>
                   <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.35)', lineHeight: 1.6 }}>
-                    💡 Актуальные цены и наличие уточняйте у продавца — звоните или пишите в Telegram. Работаем ежедневно 9:00–20:00.
+                    💡 Актуальные цены и наличие уточняйте у продавца — звоните или пишите в Telegram @XiArmo. Работаем ежедневно 9:00–20:00.
                   </div>
                 </div>
               </div>

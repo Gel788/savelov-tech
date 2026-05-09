@@ -45,7 +45,7 @@ export default function Header() {
             </svg>
           </div>
           <span style={{ fontSize: 16, fontWeight: 800, color: 'white', letterSpacing: '-0.025em' }}>
-            ТехноТочка
+            XiArmo
           </span>
         </a>
 
@@ -66,7 +66,7 @@ export default function Header() {
 
         {/* Right */}
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <a href="tel:+79991234567"
+          <a href="tel:+79773510580"
             className="btn-accent hidden sm:inline-flex"
             style={{ padding: '8px 18px', fontSize: 13, borderRadius: 10, boxShadow: '0 4px 16px rgba(123,97,255,0.3)' }}>
             <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.2">
@@ -115,7 +115,7 @@ export default function Header() {
                 onMouseLeave={e => e.currentTarget.style.color = 'rgba(255,255,255,0.8)'}
                 >{l.label}</a>
               ))}
-              <a href="tel:+79991234567" className="btn-accent" style={{ marginTop: 18, width: '100%', justifyContent: 'center', fontSize: 15 }}>
+              <a href="tel:+79773510580" className="btn-accent" style={{ marginTop: 18, width: '100%', justifyContent: 'center', fontSize: 15 }}>
                 Позвонить
               </a>
             </div>

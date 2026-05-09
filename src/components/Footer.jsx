@@ -12,10 +12,10 @@ export default function Footer() {
                   <path d="M13 3L4 14h7v7l9-11h-7L13 3z" fill="white"/>
                 </svg>
               </div>
-              <span style={{ fontSize: 17, fontWeight: 800, color: 'white', letterSpacing: '-0.025em' }}>ТехноТочка</span>
+              <span style={{ fontSize: 17, fontWeight: 800, color: 'white', letterSpacing: '-0.025em' }}>XiArmo</span>
             </div>
             <p style={{ fontSize: 14, color: 'var(--t3)', lineHeight: 1.75, maxWidth: 320, marginBottom: 22 }}>
-              Магазин техники на Савёловском рынке. iPhone, Samsung, Sony и ещё 30+ брендов в наличии.
+              Магазин техники XiArmo на Савёловском рынке. iPhone, Samsung, Sony и ещё 30+ брендов в наличии.
             </p>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
               <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#34D399', display: 'inline-block', boxShadow: '0 0 8px rgba(52,211,153,0.7)' }} />
@@ -40,21 +40,21 @@ export default function Footer() {
             <div style={{ fontSize: 14, color: 'var(--t3)', lineHeight: 1.75, marginBottom: 12 }}>
               Сущёвский вал, 5/1<br/>Савёловский рынок, Л-106
             </div>
-            <a href="tel:+79991234567" style={{ display: 'block', fontSize: 14, color: 'var(--t3)', textDecoration: 'none', marginBottom: 8, transition: 'color 0.2s' }}
+            <a href="tel:+79773510580" style={{ display: 'block', fontSize: 14, color: 'var(--t3)', textDecoration: 'none', marginBottom: 8, transition: 'color 0.2s' }}
               onMouseEnter={e => e.currentTarget.style.color = 'white'}
               onMouseLeave={e => e.currentTarget.style.color = 'var(--t3)'}
-            >+7 (999) 123-45-67</a>
-            <a href="https://t.me/technotochka_savelovo" target="_blank" rel="noopener noreferrer"
+            >+7 (977) 351-05-80</a>
+            <a href="https://t.me/XiArmo" target="_blank" rel="noopener noreferrer"
               style={{ fontSize: 14, color: 'var(--t3)', textDecoration: 'none', transition: 'color 0.2s' }}
               onMouseEnter={e => e.currentTarget.style.color = '#00D2FF'}
               onMouseLeave={e => e.currentTarget.style.color = 'var(--t3)'}
-            >@technotochka_savelovo</a>
+            >@XiArmo</a>
           </div>
         </div>
 
         {/* Bottom row */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 8 }}>
-          <span style={{ fontSize: 13, color: 'var(--t3)' }}>© 2026 ТехноТочка — Савёловский рынок, Павильон Л-106</span>
+          <span style={{ fontSize: 13, color: 'var(--t3)' }}>© 2026 XiArmo — Савёловский рынок, Павильон Л-106</span>
           <span style={{ fontSize: 13, color: 'var(--t3)' }}>Только оригинальная техника</span>
         </div>
       </div>

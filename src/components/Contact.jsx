@@ -3,8 +3,8 @@ import { motion, useInView } from 'framer-motion'
 
 const contacts = [
   { icon: '📍', label: 'Адрес',    v: 'Москва, Сущёвский вал, 5/1',  sub: 'Савёловский рынок · Павильон Л-106', color: '#7B61FF', href: null },
-  { icon: '📞', label: 'Телефон',  v: '+7 (999) 123-45-67',           sub: 'Пн–Вс, 9:00–20:00',                 color: '#34D399', href: 'tel:+79991234567' },
-  { icon: '✈️', label: 'Telegram', v: '@technotochka_savelovo',       sub: 'Ответим в течение 5 минут',          color: '#00D2FF', href: 'https://t.me/technotochka_savelovo' },
+  { icon: '📞', label: 'Телефон',  v: '+7 (977) 351-05-80',           sub: 'Пн–Вс, 9:00–20:00',                 color: '#34D399', href: 'tel:+79773510580' },
+  { icon: '✈️', label: 'Telegram', v: '@XiArmo',                       sub: 'Ответим в течение 5 минут',          color: '#00D2FF', href: 'https://t.me/XiArmo' },
   { icon: '🕘', label: 'График',   v: 'Ежедневно без выходных',       sub: '9:00 — 20:00',                      color: '#F59E0B', href: null },
 ]
 

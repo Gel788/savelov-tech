@@ -66,7 +66,7 @@ export default function Hero() {
               }} />
               <style>{`@keyframes ping { 0%,100%{box-shadow:0 0 0 0 rgba(52,211,153,0.7)} 50%{box-shadow:0 0 0 4px rgba(52,211,153,0)} }`}</style>
               <span style={{ fontSize: 12, fontWeight: 600, color: '#A78BFA', letterSpacing: '0.04em' }}>
-                Открыто · Савёловский рынок · Л-106
+                XiArmo · Савёловский рынок · Л-106
               </span>
             </motion.div>
 
