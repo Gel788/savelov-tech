@@ -48,7 +48,7 @@ export default function ProductModal({ product: p, onClose }) {
               ✕
             </button>
 
-            <div style={{ display: 'grid', gridTemplateColumns: '380px 1fr', minHeight: 0 }} className="modal-grid">
+            <div style={{ display: 'grid', minHeight: 0 }} className="modal-grid">
 
               {/* ── Left: image + meta ── */}
               <div style={{
@@ -147,12 +147,7 @@ export default function ProductModal({ product: p, onClose }) {
               </div>
             </div>
 
-            <style>{`
-              @media (max-width: 768px) {
-                .modal-grid { grid-template-columns: 1fr !important; }
-                .modal-grid > div:first-child { border-right: none !important; border-bottom: 1px solid rgba(255,255,255,0.06) !important; border-radius: 28px 28px 0 0 !important; }
-              }
-            `}</style>
+            <style>{``}</style>
           </motion.div>
         </motion.div>
       )}

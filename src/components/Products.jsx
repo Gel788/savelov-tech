@@ -180,7 +180,7 @@ export default function Products() {
           </motion.div>
 
           {/* Grid */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(265px,1fr))', gap: 16 }}>
+          <div className="prod-grid" style={{ display: 'grid', gap: 16 }}>
             <AnimatePresence mode="popLayout">
               {list.map((p, i) => (
                 <Card key={p.id} p={p} i={i} onClick={setModal} />

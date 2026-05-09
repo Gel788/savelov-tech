@@ -32,7 +32,7 @@ export default function Categories() {
         </motion.div>
 
         {/* Grid */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 16 }} className="cat-grid">
+        <div className="cat-grid" style={{ display: 'grid' }}>
           {categories.map((c, i) => (
             <motion.a key={c.id} href={`#${c.id}`}
               initial={{ opacity: 0, y: 30 }}
@@ -83,10 +83,7 @@ export default function Categories() {
         </div>
       </div>
 
-      <style>{`
-        @media (max-width:960px) { .cat-grid { grid-template-columns: repeat(2,1fr) !important; } }
-        @media (max-width:500px) { .cat-grid { grid-template-columns: 1fr !important; } }
-      `}</style>
+        <style>{``}</style>
     </section>
   )
 }

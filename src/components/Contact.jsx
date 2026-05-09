@@ -29,7 +29,7 @@ export default function Contact() {
           </h2>
         </motion.div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '360px 1fr', gap: 20, alignItems: 'start' }} className="contact-grid">
+        <div style={{ display: 'grid', alignItems: 'start' }} className="contact-grid">
 
           {/* Cards */}
           <motion.div
@@ -102,9 +102,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <style>{`
-        @media (max-width: 1024px) { .contact-grid { grid-template-columns: 1fr !important; } }
-      `}</style>
+      <style>{``}</style>
     </section>
   )
 }

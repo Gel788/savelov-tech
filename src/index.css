@@ -328,3 +328,103 @@ body::before {
 
 /* ── Noise texture overlay ───────────────────────── */
 @keyframes noise-shift { 0%,100%{transform:translate(0,0)} 25%{transform:translate(1px,-1px)} 50%{transform:translate(-1px,1px)} 75%{transform:translate(1px,1px)} }
+
+/* ═══════════════════════════════════════════════════
+   RESPONSIVE — глобальный адаптив
+   ═══════════════════════════════════════════════════ */
+
+/* ── Header ── */
+.nav-desktop   { display: flex; }
+.nav-burger    { display: none; }
+.btn-call-desk { display: inline-flex; }
+.btn-tg-desk   { display: inline-flex; }
+
+/* ── Hero ── */
+.hero-grid   { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
+.hero-right  { display: flex; }
+.hero-stats  { display: grid; grid-template-columns: repeat(4,1fr); gap: 20px; }
+
+/* ── Category grid ── */
+.cat-grid    { display: grid; grid-template-columns: repeat(4,1fr); gap: 16px; }
+
+/* ── Products grid ── */
+.prod-grid   { display: grid; grid-template-columns: repeat(auto-fill, minmax(265px,1fr)); }
+
+/* ── Why us ── */
+.why-header  { display: grid; grid-template-columns: 1fr 1.6fr; gap: 56px; }
+.why-grid    { display: grid; grid-template-columns: repeat(3,1fr); }
+
+/* ── Contact ── */
+.contact-grid { display: grid; grid-template-columns: 360px 1fr; gap: 20px; }
+
+/* ── Modal ── */
+.modal-grid  { display: grid; grid-template-columns: 380px 1fr; }
+
+/* ── Footer ── */
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 48px; }
+
+
+/* ── TABLET 1024px ── */
+@media (max-width: 1024px) {
+  .why-header   { grid-template-columns: 1fr; gap: 12px; }
+  .why-grid     { grid-template-columns: repeat(2,1fr); }
+  .why-grid > div { border-right: none !important; }
+  .contact-grid { grid-template-columns: 1fr; }
+  .footer-grid  { grid-template-columns: 1fr 1fr; gap: 32px; }
+}
+
+/* ── MOBILE 768px ── */
+@media (max-width: 768px) {
+  /* Header */
+  .nav-desktop   { display: none !important; }
+  .nav-burger    { display: flex !important; }
+  .btn-call-desk { display: none !important; }
+  .btn-tg-desk   { display: none !important; }
+
+  /* Hero */
+  .hero-grid  { grid-template-columns: 1fr !important; gap: 32px !important; }
+  .hero-right { display: none !important; }
+  .hero-stats { grid-template-columns: repeat(2,1fr) !important; gap: 16px !important; }
+
+  /* Categories */
+  .cat-grid   { grid-template-columns: repeat(2,1fr) !important; gap: 12px !important; }
+
+  /* Products */
+  .prod-grid  { grid-template-columns: 1fr !important; }
+
+  /* Why us */
+  .why-grid   { grid-template-columns: 1fr !important; }
+  .why-grid > div { border-right: none !important; border-bottom: 1px solid var(--border) !important; }
+
+  /* Footer */
+  .footer-grid { grid-template-columns: 1fr !important; gap: 28px !important; }
+
+  /* Modal */
+  .modal-grid { grid-template-columns: 1fr !important; }
+  .modal-grid > div:first-child {
+    border-right: none !important;
+    border-bottom: 1px solid rgba(255,255,255,0.06) !important;
+    border-radius: 24px 24px 0 0 !important;
+  }
+  .modal-panel { border-radius: 20px 20px 0 0; max-height: 95vh; position: fixed; bottom: 0; left: 0; right: 0; width: 100% !important; max-width: 100% !important; margin: 0; }
+  .modal-overlay { align-items: flex-end; padding: 0; }
+
+  /* Typography */
+  .spec-key { min-width: 120px !important; font-size: 11px !important; }
+}
+
+/* ── SMALL 480px ── */
+@media (max-width: 480px) {
+  .cat-grid   { grid-template-columns: repeat(2,1fr) !important; }
+  .hero-stats { grid-template-columns: repeat(2,1fr) !important; }
+}
+
+/* ── Общий padding для секций на мобилке ── */
+@media (max-width: 768px) {
+  section { padding-left: 0 !important; padding-right: 0 !important; }
+  section > div,
+  section > .container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}

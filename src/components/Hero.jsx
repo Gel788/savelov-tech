@@ -104,7 +104,7 @@ export default function Hero() {
 
       {/* ── Content ── */}
       <div style={{ maxWidth:1280, margin:'0 auto', padding:'60px 28px 0', width:'100%', flex:1, display:'flex', alignItems:'center', position:'relative', zIndex:2 }}>
-        <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:56, alignItems:'center', width:'100%' }} className="hero-grid">
+        <div className="hero-grid" style={{ width: '100%' }}>
 
           {/* ── Left ── */}
           <div>
@@ -146,7 +146,7 @@ export default function Hero() {
             </motion.div>
 
             {/* Stats */}
-            <motion.div {...f(0.43)} style={{ display:'grid', gridTemplateColumns:'repeat(4,1fr)', gap:20, paddingTop:28, borderTop:'1px solid rgba(255,255,255,0.06)' }}>
+            <motion.div {...f(0.43)} className="hero-stats" style={{ paddingTop:28, borderTop:'1px solid rgba(255,255,255,0.06)' }}>
               {[['500+','моделей'],['30+','брендов'],['5 лет','на рынке'],['4.9★','рейтинг']].map(([n,l]) => (
                 <div key={l}>
                   <div style={{ fontSize:26, fontWeight:900, color:'white', letterSpacing:'-0.03em', lineHeight:1, fontFamily:'var(--mono)' }}>{n}</div>
@@ -212,9 +212,9 @@ export default function Hero() {
       {/* Bottom fade */}
       <div style={{ position:'absolute', bottom:0, left:0, right:0, height:120, background:'linear-gradient(to top, var(--bg) 0%, transparent 100%)', pointerEvents:'none', zIndex:3 }}/>
 
-      <style>{`
-        @media (max-width:900px) { .hero-grid{grid-template-columns:1fr!important} .hero-right{display:none!important} }
-      `}</style>
+        <style>{`
+          .hero-grid { display: grid; align-items: center; }
+        `}</style>
     </section>
   )
 }

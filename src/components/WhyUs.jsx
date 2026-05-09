@@ -23,7 +23,7 @@ export default function WhyUs() {
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5 }}
-          style={{ display: 'grid', gridTemplateColumns: '1fr 1.6fr', gap: 56, alignItems: 'start', marginBottom: 64 }}
+          style={{ display: 'grid', gap: 56, alignItems: 'start', marginBottom: 64 }}
           className="why-header"
         >
           <div>
@@ -39,7 +39,7 @@ export default function WhyUs() {
         </motion.div>
 
         {/* Grid */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 0 }} className="why-grid">
+        <div style={{ display: 'grid', gap: 0 }} className="why-grid">
           {items.map((it, i) => (
             <motion.div key={it.t}
               initial={{ opacity: 0, y: 20 }}
@@ -61,10 +61,7 @@ export default function WhyUs() {
         </div>
       </div>
 
-      <style>{`
-        @media (max-width: 900px)  { .why-header { grid-template-columns: 1fr !important; gap: 16px !important; } .why-grid { grid-template-columns: repeat(2,1fr) !important; } .why-grid > div { border-right: none !important; } }
-        @media (max-width: 600px)  { .why-grid { grid-template-columns: 1fr !important; } }
-      `}</style>
+      <style>{``}</style>
     </section>
   )
 }
