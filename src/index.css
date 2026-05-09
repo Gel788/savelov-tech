@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800;0,14..32,900;1,14..32,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg:      #06060A;
+  --bg1:     #0C0C14;
+  --bg2:     #111119;
+  --bg3:     #18181F;
+  --border:  rgba(255,255,255,0.07);
+  --accent:  #7B61FF;
+  --accent2: #00D2FF;
+  --glow:    rgba(123,97,255,0.25);
+  --t1: #FFFFFF;
+  --t2: #94A3B8;
+  --t3: #475569;
+}
+
+@layer base {
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--t1);
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: rgba(123,97,255,0.3); }
+}
+
+/* ── Announce ────────────────────────────────────── */
+.ann {
+  background: linear-gradient(90deg, #1a0a3e, #0d1a3e, #1a0a3e);
+  background-size: 200%;
+  animation: ann-move 6s linear infinite;
+  text-align: center;
+  padding: 9px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.75);
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid rgba(123,97,255,0.2);
+  position: fixed; top: 0; left: 0; right: 0; z-index: 60;
+}
+.ann span { color: #A78BFA; }
+@keyframes ann-move { 0%,100%{background-position:0%} 50%{background-position:100%} }
+
+/* ── Scrollbar ───────────────────────────────────── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: linear-gradient(180deg,#7B61FF,#00D2FF); border-radius:2px; }
+
+/* ── Marquee ─────────────────────────────────────── */
+@keyframes scroll-x { to { transform: translateX(-50%); } }
+.marquee { animation: scroll-x 30s linear infinite; display:flex; width:max-content; }
+.marquee:hover { animation-play-state: paused; }
+
+/* ── Glass ───────────────────────────────────────── */
+.glass {
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border);
+}
+
+/* ── Buttons ─────────────────────────────────────── */
+.btn-accent {
+  display:inline-flex; align-items:center; gap:8px;
+  padding:13px 28px; font-size:15px; font-weight:700;
+  color:white; background:linear-gradient(135deg,#7B61FF,#00D2FF);
+  border-radius:14px; border:none; cursor:pointer;
+  transition:opacity 0.2s, transform 0.2s, box-shadow 0.2s;
+  font-family:inherit; text-decoration:none;
+  box-shadow: 0 8px 32px rgba(123,97,255,0.3);
+}
+.btn-accent:hover { opacity:0.88; transform:translateY(-1px); box-shadow:0 12px 40px rgba(123,97,255,0.45); }
+.btn-ghost {
+  display:inline-flex; align-items:center; gap:8px;
+  padding:13px 28px; font-size:15px; font-weight:700;
+  color:rgba(255,255,255,0.8);
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.12);
+  border-radius:14px; cursor:pointer;
+  transition:all 0.2s; font-family:inherit; text-decoration:none;
+}
+.btn-ghost:hover { background:rgba(255,255,255,0.09); color:white; transform:translateY(-1px); }
+
+/* ── Section label ───────────────────────────────── */
+.slabel {
+  font-size:11px; font-weight:700;
+  letter-spacing:0.16em; text-transform:uppercase;
+  background: linear-gradient(90deg,#7B61FF,#00D2FF);
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+  background-clip:text; display:inline-block; margin-bottom:12px;
+}
+
+/* ── Product card ────────────────────────────────── */
+.pcard {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.3s, box-shadow 0.3s, transform 0.35s;
+  display: flex; flex-direction: column;
+}
+.pcard:hover {
+  border-color: rgba(123,97,255,0.5);
+  box-shadow: 0 0 0 1px rgba(123,97,255,0.2), 0 24px 60px rgba(0,0,0,0.6);
+  transform: translateY(-6px);
+}
+.pcard-img {
+  position:relative; overflow:hidden;
+  padding-top: 75%; background: var(--bg1);
+}
+.pcard-img img {
+  position:absolute; inset:0; width:100%; height:100%;
+  object-fit:cover; transition:transform 0.7s ease;
+}
+.pcard:hover .pcard-img img { transform:scale(1.07); }
+
+/* ── Category card ───────────────────────────────── */
+.catcard {
+  position:relative; overflow:hidden; border-radius:24px;
+  cursor:pointer; display:block; text-decoration:none;
+}
+.catcard img { width:100%; height:100%; object-fit:cover; transition:transform 0.7s; }
+.catcard:hover img { transform:scale(1.06); }
+
+/* ── Modal overlay ───────────────────────────────── */
+.modal-overlay {
+  position:fixed; inset:0; z-index:100;
+  background:rgba(0,0,0,0.85);
+  backdrop-filter:blur(12px);
+  -webkit-backdrop-filter:blur(12px);
+  display:flex; align-items:center; justify-content:center;
+  padding:20px;
+}
+.modal-panel {
+  background: var(--bg1);
+  border: 1px solid rgba(123,97,255,0.2);
+  border-radius: 28px;
+  max-width: 960px; width:100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 40px 120px rgba(0,0,0,0.9), 0 0 0 1px rgba(123,97,255,0.1);
+}
+.modal-panel::-webkit-scrollbar { width:3px; }
+.modal-panel::-webkit-scrollbar-thumb { background:rgba(123,97,255,0.4); }
+
+/* ── Spec table ──────────────────────────────────── */
+.spec-group { margin-bottom:24px; }
+.spec-group-title {
+  font-size:10px; font-weight:700; letter-spacing:0.14em;
+  text-transform:uppercase; color:var(--t3);
+  padding-bottom:8px; border-bottom:1px solid var(--border);
+  margin-bottom:10px;
+}
+.spec-row { display:flex; padding:7px 0; gap:16px; border-bottom:1px solid rgba(255,255,255,0.03); }
+.spec-row:last-child { border:none; }
+.spec-key { font-size:13px; color:var(--t3); min-width:160px; flex-shrink:0; }
+.spec-val { font-size:13px; color:var(--t1); font-weight:500; line-height:1.5; }
+
+/* ── Gradient text ───────────────────────────────── */
+.gt { background:linear-gradient(135deg,#7B61FF 0%,#00D2FF 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
