@@ -19,7 +19,7 @@ export default function Footer() {
             </p>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
               <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#34D399', display: 'inline-block', boxShadow: '0 0 8px rgba(52,211,153,0.7)' }} />
-              <span style={{ fontSize: 13, fontWeight: 600, color: '#34D399' }}>Открыто · 9:00–20:00</span>
+              <span style={{ fontSize: 13, fontWeight: 600, color: '#34D399' }}>Открыто · 10:20–20:00</span>
             </div>
           </div>
 
@@ -38,7 +38,7 @@ export default function Footer() {
           <div>
             <div style={{ fontSize: 11, fontWeight: 700, color: 'var(--t3)', letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: 18 }}>Контакты</div>
             <div style={{ fontSize: 14, color: 'var(--t3)', lineHeight: 1.75, marginBottom: 12 }}>
-              Сущёвский вал, 5/1<br/>Савёловский рынок, Л-106
+              Сущёвский вал, 5, стр. 8<br/>Подъезд 3 · Павильон Л-106 · 1 этаж
             </div>
             <a href="tel:+79773510580" style={{ display: 'block', fontSize: 14, color: 'var(--t3)', textDecoration: 'none', marginBottom: 8, transition: 'color 0.2s' }}
               onMouseEnter={e => e.currentTarget.style.color = 'white'}
@@ -54,7 +54,7 @@ export default function Footer() {
 
         {/* Bottom row */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 8 }}>
-          <span style={{ fontSize: 13, color: 'var(--t3)' }}>© 2026 XiArmo — Савёловский рынок, Павильон Л-106</span>
+          <span style={{ fontSize: 13, color: 'var(--t3)' }}>© 2026 XiArmo — Сущёвский вал, 5, стр. 8, Павильон Л-106</span>
           <span style={{ fontSize: 13, color: 'var(--t3)' }}>Только оригинальная техника</span>
         </div>
       </div>

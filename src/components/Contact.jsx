@@ -2,10 +2,10 @@ import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 
 const contacts = [
-  { icon: '📍', label: 'Адрес',    v: 'Москва, Сущёвский вал, 5/1',  sub: 'Савёловский рынок · Павильон Л-106', color: '#7B61FF', href: null },
-  { icon: '📞', label: 'Телефон',  v: '+7 (977) 351-05-80',           sub: 'Пн–Вс, 9:00–20:00',                 color: '#34D399', href: 'tel:+79773510580' },
+  { icon: '📍', label: 'Адрес',    v: 'Сущёвский вал, 5, стр. 8',    sub: 'Подъезд 3 · Павильон Л-106 · 1 этаж',  color: '#7B61FF', href: null },
+  { icon: '📞', label: 'Телефон',  v: '+7 (977) 351-05-80',           sub: 'Пн–Вс, 10:20–20:00',                color: '#34D399', href: 'tel:+79773510580' },
   { icon: '✈️', label: 'Telegram', v: '@XiArmo',                       sub: 'Ответим в течение 5 минут',          color: '#00D2FF', href: 'https://t.me/XiArmo' },
-  { icon: '🕘', label: 'График',   v: 'Ежедневно без выходных',       sub: '9:00 — 20:00',                      color: '#F59E0B', href: null },
+  { icon: '🕘', label: 'График',   v: 'Ежедневно без выходных',       sub: 'С 10:20 до 20:00',                  color: '#F59E0B', href: null },
 ]
 
 export default function Contact() {
@@ -63,14 +63,13 @@ export default function Contact() {
             })}
 
             {/* Metro */}
-            <div style={{
-              display: 'flex', alignItems: 'center', gap: 14, padding: '16px 18px',
+            <div style={{ display: 'flex', alignItems: 'center', gap: 14, padding: '16px 18px',
               background: 'rgba(123,97,255,0.08)', border: '1px solid rgba(123,97,255,0.2)', borderRadius: 16,
             }}>
               <span style={{ fontSize: 24, flexShrink: 0 }}>🚇</span>
               <div>
                 <div style={{ fontSize: 15, fontWeight: 700, color: 'white' }}>м. Савёловская</div>
-                <div style={{ fontSize: 12, color: 'var(--accent)', fontWeight: 600 }}>2 минуты пешком</div>
+                <div style={{ fontSize: 12, color: 'var(--accent)', fontWeight: 600 }}>Пешком 3 минуты · МЦД-4</div>
               </div>
             </div>
           </motion.div>
@@ -89,13 +88,10 @@ export default function Contact() {
               allowFullScreen loading="lazy"
               title="Савёловский рынок"
             />
-            <div style={{
-              display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-              padding: '16px 20px', background: 'var(--bg2)', borderTop: '1px solid var(--border)',
-            }}>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 20px', background: 'var(--bg2)', borderTop: '1px solid var(--border)' }}>
               <div>
                 <div style={{ fontSize: 14, fontWeight: 700, color: 'white' }}>Савёловский рынок</div>
-                <div style={{ fontSize: 12, color: 'var(--t2)' }}>Сущёвский вал, 5/1 · Павильон Л-106</div>
+                <div style={{ fontSize: 12, color: 'var(--t2)' }}>Сущёвский вал, 5, стр. 8 · Подъезд 3 · Павильон Л-106 · 1 этаж</div>
               </div>
               <a href="https://yandex.ru/maps/?text=Савёловский+рынок" target="_blank" rel="noopener noreferrer"
                 className="btn-ghost" style={{ padding: '9px 18px', fontSize: 13 }}>
