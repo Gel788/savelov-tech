@@ -51,10 +51,13 @@ const Card = React.forwardRef(function Card({ p, i, onClick, onToggleCompare, is
         )}
 
         {/* Brand logo */}
-        <div style={{ position: 'absolute', top: 12, right: 12, width: 32, height: 32, borderRadius: 9, background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(10px)', border: '1px solid rgba(255,255,255,0.08)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div style={{ position: 'absolute', top: 12, right: 12, width: 32, height: 32, borderRadius: 9, background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(10px)', border: '1px solid rgba(255,255,255,0.08)', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
           <img src={`https://cdn.simpleicons.org/${p.slug}/ffffff`} alt={p.brand}
             style={{ width: 16, height: 16, objectFit: 'contain', opacity: 0.8 }}
-            onError={e => e.target.style.display = 'none'} />
+            onError={e => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'block' }} />
+          <span style={{ display: 'none', fontSize: 9, fontWeight: 800, color: 'rgba(255,255,255,0.7)', letterSpacing: '-0.02em', textAlign: 'center', lineHeight: 1, padding: '0 2px' }}>
+            {p.brand.slice(0, 3).toUpperCase()}
+          </span>
         </div>
 
         {/* Hover label */}

@@ -268,7 +268,7 @@ export const products = [
     id: 8, cat: 'phones', name: 'iPhone SE 4', brand: 'Apple', slug: 'apple',
     tagline: 'Компактный, A18, USB-C — самый доступный iPhone',
     badge: 'Топ цена',
-    img: 'https://images.unsplash.com/photo-1574631226562-9f73d6e7b0a6?w=800&q=90&fit=crop',
+    img: 'https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&q=90&fit=crop',
     specs: [
       { group: 'Дисплей', items: [
         { k: 'Диагональ',     v: '6.1" Super Retina XDR' },
@@ -466,7 +466,7 @@ export const products = [
     id: 13, cat: 'phones', name: 'Samsung Galaxy Z Fold 7', brand: 'Samsung', slug: 'samsung',
     tagline: 'Раскладной флагман — планшет и смартфон в одном',
     badge: 'Флагман',
-    img: 'https://images.unsplash.com/photo-1609081524209-dc67e028f297?w=800&q=90&fit=crop',
+    img: 'https://images.unsplash.com/photo-1580910051074-3eb694886505?w=800&q=90&fit=crop',
     specs: [
       { group: 'Дисплей', items: [
         { k: 'Внутренний',    v: '7.6" Dynamic AMOLED 2X, 120 Гц' },
@@ -534,7 +534,7 @@ export const products = [
     id: 15, cat: 'phones', name: 'Samsung Galaxy A56', brand: 'Samsung', slug: 'samsung',
     tagline: '6.7" AMOLED, 50 МП, Galaxy AI — лучшая цена',
     badge: 'Топ цена',
-    img: 'https://images.unsplash.com/photo-1543069190-4a8bd2a6e5e1?w=800&q=90&fit=crop',
+    img: 'https://images.unsplash.com/photo-1567581935884-3349723552ca?w=800&q=90&fit=crop',
     specs: [
       { group: 'Дисплей', items: [
         { k: 'Диагональ',     v: '6.7" Super AMOLED FHD+' },
@@ -646,7 +646,7 @@ export const products = [
     id: 18, cat: 'phones', name: 'Xiaomi 15', brand: 'Xiaomi', slug: 'xiaomi',
     tagline: 'Компактный флагман с Leica и Snapdragon 8 Elite',
     badge: null,
-    img: 'https://images.unsplash.com/photo-1578237493372-78dc2af3a3b5?w=800&q=90&fit=crop',
+    img: 'https://images.unsplash.com/photo-1574755393849-623942496936?w=800&q=90&fit=crop&crop=right',
     specs: [
       { group: 'Дисплей', items: [
         { k: 'Диагональ',     v: '6.36" AMOLED' },
@@ -864,7 +864,7 @@ export const products = [
     id: 24, cat: 'phones', name: 'OPPO Reno 13 Pro', brand: 'OPPO', slug: 'oppo',
     tagline: '50 МП двойной телефото, 80 Вт, AI Portrait',
     badge: null,
-    img: 'https://images.unsplash.com/photo-1595941069915-4ebc5197e348?w=800&q=90&fit=crop',
+    img: 'https://images.unsplash.com/photo-1533228100845-08145b01de14?w=800&q=90&fit=crop&crop=right',
     specs: [
       { group: 'Дисплей', items: [
         { k: 'Диагональ',     v: '6.83" AMOLED FHD+' },
@@ -941,7 +941,7 @@ export const products = [
     id: 26, cat: 'phones', name: 'OnePlus 13', brand: 'OnePlus', slug: 'oneplus',
     tagline: 'Hasselblad, 100 Вт зарядка, Snapdragon 8 Elite',
     badge: null,
-    img: 'https://images.unsplash.com/photo-1622531636623-9c7e7539e6d7?w=800&q=90&fit=crop',
+    img: 'https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=800&q=90&fit=crop',
     specs: [
       { group: 'Дисплей', items: [
         { k: 'Диагональ',     v: '6.82" LTPO AMOLED' },
@@ -1055,7 +1055,7 @@ export const products = [
     id: 29, cat: 'phones', name: 'Vivo X200 Pro', brand: 'Vivo', slug: 'vivo',
     tagline: 'Zeiss камера 200 МП, 90 Вт зарядка, Dimensity 9400',
     badge: null,
-    img: 'https://images.unsplash.com/photo-1619953942547-233ac39f7e63?w=800&q=90&fit=crop',
+    img: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=90&fit=crop&crop=right',
     specs: [
       { group: 'Дисплей', items: [
         { k: 'Диагональ',     v: '6.78" LTPO AMOLED' },
