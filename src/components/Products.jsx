@@ -130,6 +130,12 @@ export default function Products() {
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-60px' })
 
+  useEffect(() => {
+    const handler = e => setActive(e.detail)
+    window.addEventListener('xiSetCategory', handler)
+    return () => window.removeEventListener('xiSetCategory', handler)
+  }, [])
+
   const list = active === 'all' ? products : products.filter(p => p.cat === active)
 
   return (

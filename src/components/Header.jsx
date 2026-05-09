@@ -1,9 +1,16 @@
 import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
+const handleNavClick = (e, catId) => {
+  e.preventDefault()
+  const el = document.getElementById('catalog')
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  window.dispatchEvent(new CustomEvent('xiSetCategory', { detail: catId }))
+}
+
 const nav = [
   {
-    label: 'Смартфоны', href: '#phones', id: 'phones',
+    label: 'Смартфоны', href: '#catalog', id: 'phones',
     icon: (
       <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.8">
         <rect x="5" y="2" width="14" height="20" rx="2"/>
@@ -13,7 +20,7 @@ const nav = [
     hint: '150+ моделей',
   },
   {
-    label: 'Ноутбуки', href: '#laptops', id: 'laptops',
+    label: 'Ноутбуки', href: '#catalog', id: 'laptops',
     icon: (
       <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.8">
         <rect x="2" y="4" width="20" height="14" rx="2"/>
@@ -23,7 +30,7 @@ const nav = [
     hint: '80+ моделей',
   },
   {
-    label: 'Планшеты', href: '#tablets', id: 'tablets',
+    label: 'Планшеты', href: '#catalog', id: 'tablets',
     icon: (
       <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.8">
         <rect x="4" y="2" width="16" height="20" rx="2"/>
@@ -33,7 +40,7 @@ const nav = [
     hint: '60+ моделей',
   },
   {
-    label: 'Наушники', href: '#headphones', id: 'headphones',
+    label: 'Наушники', href: '#catalog', id: 'headphones',
     icon: (
       <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.8">
         <path d="M3 18v-6a9 9 0 0118 0v6"/>
@@ -132,6 +139,7 @@ export default function Header() {
             <a
               key={l.id}
               href={l.href}
+              onClick={e => handleNavClick(e, l.id)}
               onMouseEnter={e => { handleNavEnter(e); setActive(l.id) }}
               style={{
                 display: 'flex', alignItems: 'center', gap: 7,
@@ -219,7 +227,7 @@ export default function Header() {
                 <motion.a
                   key={l.id}
                   href={l.href}
-                  onClick={() => setOpen(false)}
+                  onClick={e => { handleNavClick(e, l.id); setOpen(false) }}
                   initial={{ opacity: 0, x: -12 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: i * 0.06, duration: 0.25 }}
