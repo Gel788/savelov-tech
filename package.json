@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node -e \"require('fs').writeFileSync('dist/.htaccess','Options -MultiViews\\nRewriteEngine On\\nAddType application/javascript .js\\nAddType text/css .css\\nRewriteCond %{REQUEST_FILENAME} !-f\\nRewriteCond %{REQUEST_FILENAME} !-d\\nRewriteRule ^ index.html [QSA,L]\\n')\"",
     "preview": "vite preview"
   },
   "dependencies": {
