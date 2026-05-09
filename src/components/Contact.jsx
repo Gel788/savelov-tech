@@ -3,9 +3,9 @@ import { motion, useInView } from 'framer-motion'
 
 const contacts = [
   { icon: '📍', label: 'Адрес',    v: 'Сущёвский вал, 5, стр. 8',    sub: 'Подъезд 3 · Павильон Л-106 · 1 этаж',  color: '#7B61FF', href: null },
-  { icon: '📞', label: 'Телефон',  v: '+7 (977) 351-05-80',           sub: 'Пн–Вс, 10:20–20:00',                color: '#34D399', href: 'tel:+79773510580' },
+  { icon: '📞', label: 'Телефон',  v: '+7 (977) 351-05-80',           sub: 'Пн–Вс, 10:00–20:00',                color: '#34D399', href: 'tel:+79773510580' },
   { icon: '✈️', label: 'Telegram', v: '@XiArmo',                       sub: 'Ответим в течение 5 минут',          color: '#00D2FF', href: 'https://t.me/XiArmo' },
-  { icon: '🕘', label: 'График',   v: 'Ежедневно без выходных',       sub: 'С 10:20 до 20:00',                  color: '#F59E0B', href: null },
+  { icon: '🕘', label: 'График',   v: 'Ежедневно без выходных',       sub: 'С 10:00 до 20:00',                  color: '#F59E0B', href: null },
 ]
 
 export default function Contact() {

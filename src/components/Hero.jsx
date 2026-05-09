@@ -112,7 +112,7 @@ export default function Hero() {
             <motion.div {...f(0.1)} style={{ display:'inline-flex', alignItems:'center', gap:8, padding:'6px 14px', borderRadius:8, background:'rgba(0,255,148,0.06)', border:'1px solid rgba(0,255,148,0.15)', marginBottom:32 }}>
               <span className="pulse-dot" />
               <span style={{ fontSize:11, fontWeight:600, color:'var(--accent3)', letterSpacing:'0.08em', fontFamily:'var(--mono)' }}>
-                XiArmo · Савёловская · Л-106 · С 10:20
+                XiArmo · Савёловская · Л-106 · С 10:00
               </span>
             </motion.div>
 

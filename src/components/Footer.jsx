@@ -19,7 +19,7 @@ export default function Footer() {
             </p>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
               <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#34D399', display: 'inline-block', boxShadow: '0 0 8px rgba(52,211,153,0.7)' }} />
-              <span style={{ fontSize: 13, fontWeight: 600, color: '#34D399' }}>Открыто · 10:20–20:00</span>
+              <span style={{ fontSize: 13, fontWeight: 600, color: '#34D399' }}>Открыто · 10:00–20:00</span>
             </div>
           </div>
 

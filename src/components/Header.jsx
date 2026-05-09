@@ -113,7 +113,7 @@ export default function Header() {
               Xi<span style={{ color: 'var(--accent2)' }}>Armo</span>
             </div>
             <div style={{ fontSize: 9, fontWeight: 600, color: 'var(--t3)', letterSpacing: '0.12em', textTransform: 'uppercase', fontFamily: 'var(--mono)', marginTop: 2 }}>
-              Савёловская · Л-106 · 10:20–20:00
+              Савёловская · Л-106 · 10:00–20:00
             </div>
           </div>
         </a>

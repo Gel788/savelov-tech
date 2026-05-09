@@ -34,7 +34,7 @@ export default function WhyUs() {
           </div>
           <p style={{ fontSize: 17, color: 'var(--t2)', lineHeight: 1.8, paddingTop: 36 }}>
             5 лет на Савёловском рынке. Тысячи довольных покупателей — наша лучшая визитная карточка.
-            Работаем ежедневно с <strong style={{ color: 'white' }}>10:20 до 20:00</strong>.
+            Работаем ежедневно с <strong style={{ color: 'white' }}>10:00 до 20:00</strong>.
           </p>
         </motion.div>
 
