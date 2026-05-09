@@ -80,7 +80,7 @@ export default function Header() {
 
   return (
     <header style={{
-      position: 'fixed', top: 36, left: 0, right: 0, zIndex: 50,
+      position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50,
       transition: 'top 0.35s, background 0.35s',
       ...(scrolled ? {
         top: 0,

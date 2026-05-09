@@ -44,7 +44,7 @@ export default function Hero() {
       minHeight: '100svh',
       display: 'flex',
       flexDirection: 'column',
-      paddingTop: 96,
+      paddingTop: 80,
       position: 'relative',
       overflow: 'hidden',
     }}>
