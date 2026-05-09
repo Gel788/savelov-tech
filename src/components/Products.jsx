@@ -78,28 +78,31 @@ const Card = React.forwardRef(function Card({ p, i, onClick }, ref) {
       </div>
 
       {/* Info */}
-      <div style={{ padding: '16px 18px 20px', flex: 1, display: 'flex', flexDirection: 'column', gap: 10 }}>
+        <div style={{ padding: '16px 18px 20px', flex: 1, display: 'flex', flexDirection: 'column', gap: 10 }}>
         <div>
-          <div style={{ fontSize: 11, fontWeight: 700, color: 'var(--accent)', letterSpacing: '0.05em', marginBottom: 4 }}>{p.brand}</div>
+          <div style={{ fontSize: 10, fontWeight: 700, color: 'var(--accent2)', letterSpacing: '0.14em', marginBottom: 5, fontFamily: 'var(--mono)', textTransform: 'uppercase' }}>
+            {p.brand}
+          </div>
           <div style={{ fontSize: 15, fontWeight: 700, color: 'white', lineHeight: 1.3 }}>{p.name}</div>
         </div>
 
-        {/* Brief specs */}
+          {/* Brief specs */}
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
           {briefSpecs.map(s => (
             <span key={s.k} style={{
-              fontSize: 11, color: 'var(--t3)',
-              background: 'rgba(255,255,255,0.04)',
-              border: '1px solid rgba(255,255,255,0.06)',
-              padding: '3px 9px', borderRadius: 7,
+              fontSize: 10, color: 'var(--accent2)',
+              background: 'rgba(0,210,255,0.05)',
+              border: '1px solid rgba(0,210,255,0.12)',
+              padding: '3px 9px', borderRadius: 6,
+              fontFamily: 'var(--mono)', letterSpacing: '0.03em',
             }}>{s.v}</span>
           ))}
         </div>
 
         {/* CTA */}
         <div style={{ marginTop: 'auto', paddingTop: 14, borderTop: '1px solid var(--border)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <span style={{ fontSize: 12, color: 'var(--t3)', fontStyle: 'italic' }}>
-            Нажмите — все характеристики
+          <span style={{ fontSize: 11, color: 'var(--t3)', fontFamily: 'var(--mono)', letterSpacing: '0.04em' }}>
+            tap_for_specs →
           </span>
           <div style={{
             width: 32, height: 32, borderRadius: 9,

@@ -32,7 +32,7 @@ export default function Brands() {
         >
           <div>
             <span className="slabel">Бренды</span>
-            <h2 style={{ fontSize: 'clamp(28px,4vw,48px)', fontWeight: 800, color: 'white', letterSpacing: '-0.025em', lineHeight: 1.1, marginTop: 0 }}>
+          <h2 style={{ fontSize: 'clamp(28px,4vw,48px)', fontWeight: 800, color: 'white', letterSpacing: '-0.025em', lineHeight: 1.1, marginTop: 0 }}>
               30+ мировых брендов
             </h2>
           </div>

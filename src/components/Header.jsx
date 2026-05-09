@@ -24,10 +24,11 @@ export default function Header() {
       transition: 'top 0.35s, background 0.35s, border-color 0.35s',
       ...(scrolled ? {
         top: 0,
-        background: 'rgba(6,6,10,0.92)',
+        background: 'rgba(4,4,10,0.95)',
         backdropFilter: 'blur(24px)',
         WebkitBackdropFilter: 'blur(24px)',
-        borderBottom: '1px solid rgba(255,255,255,0.06)',
+        borderBottom: '1px solid rgba(123,97,255,0.15)',
+        boxShadow: '0 1px 32px rgba(123,97,255,0.08)',
       } : {}),
     }}>
       <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 28px', height: 60, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
@@ -45,7 +46,7 @@ export default function Header() {
             </svg>
           </div>
           <span style={{ fontSize: 16, fontWeight: 800, color: 'white', letterSpacing: '-0.025em' }}>
-            XiArmo
+            Xi<span style={{ color: 'var(--accent2)' }}>Armo</span>
           </span>
         </a>
 
