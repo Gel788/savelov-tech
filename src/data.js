@@ -1088,9 +1088,890 @@ export const products = [
     ],
   },
 
+  // ── Apple iPhone 15 серия ──────────────────
+
+  {
+    id: 38, cat: 'phones', name: 'iPhone 15 Pro Max', brand: 'Apple', slug: 'apple',
+    tagline: 'Титановый корпус, A17 Pro, телефото 5×',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=800&q=90&fit=crop&crop=right',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.7" Super Retina XDR' },
+        { k: 'Разрешение',    v: '2796 × 1290, 460 PPI' },
+        { k: 'Технология',    v: 'OLED ProMotion 1–120 Гц' },
+        { k: 'Яркость',       v: 'до 2000 нит HDR' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Apple A17 Pro (3 нм)' },
+        { k: 'ОЗУ',           v: '8 GB LPDDR5' },
+        { k: 'Накопитель',    v: '256 / 512 GB / 1 TB' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '48 МП f/1.78, OIS, 4K@120fps' },
+        { k: 'Ультраширокая', v: '12 МП f/2.2' },
+        { k: 'Телефото',      v: '12 МП f/2.8, 5× оптический' },
+        { k: 'Фронтальная',   v: '12 МП f/1.9, TrueDepth' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '4422 мАч' },
+        { k: 'Зарядка',       v: '27 Вт USB-C, MagSafe 15 Вт' },
+        { k: 'Автономность',  v: 'до 29 ч видео' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Материал',      v: 'Титан Grade 5 + матовое стекло' },
+        { k: 'Защита',        v: 'IP68 (до 6 м, 30 мин)' },
+        { k: 'Размеры',       v: '159.9 × 76.7 × 8.25 мм, 221 г' },
+        { k: 'Цвета',         v: 'Чёрный / Белый / Синий / Натуральный Титан' },
+      ]},
+    ],
+  },
+
+  {
+    id: 39, cat: 'phones', name: 'iPhone 15 Pro', brand: 'Apple', slug: 'apple',
+    tagline: 'A17 Pro, Action Button, USB-C 3.2',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&q=90&fit=crop&crop=right',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.1" Super Retina XDR' },
+        { k: 'Разрешение',    v: '2556 × 1179, 460 PPI' },
+        { k: 'Технология',    v: 'OLED ProMotion 1–120 Гц' },
+        { k: 'Яркость',       v: 'до 2000 нит HDR' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Apple A17 Pro (3 нм)' },
+        { k: 'ОЗУ',           v: '8 GB LPDDR5' },
+        { k: 'Накопитель',    v: '128 / 256 / 512 GB / 1 TB' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '48 МП f/1.78, OIS' },
+        { k: 'Ультраширокая', v: '12 МП f/2.2, макро' },
+        { k: 'Телефото',      v: '12 МП f/2.8, 3× оптический' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '3274 мАч' },
+        { k: 'Зарядка',       v: '27 Вт USB-C 3.2, MagSafe 15 Вт' },
+        { k: 'Автономность',  v: 'до 23 ч видео' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Материал',      v: 'Титан Grade 5' },
+        { k: 'Защита',        v: 'IP68' },
+        { k: 'Размеры',       v: '146.6 × 70.6 × 8.25 мм, 187 г' },
+        { k: 'Цвета',         v: 'Чёрный / Белый / Синий / Натуральный Титан' },
+      ]},
+    ],
+  },
+
+  {
+    id: 40, cat: 'phones', name: 'iPhone 15 Plus', brand: 'Apple', slug: 'apple',
+    tagline: 'Большой экран, A16, до 26 ч видео',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1527698266440-12104e498b76?w=800&q=90&fit=crop&crop=left',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.7" Super Retina XDR' },
+        { k: 'Разрешение',    v: '2778 × 1284, 460 PPI' },
+        { k: 'Технология',    v: 'OLED 60 Гц' },
+        { k: 'Яркость',       v: 'до 1000 нит SDR' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Apple A16 Bionic (4 нм)' },
+        { k: 'ОЗУ',           v: '6 GB' },
+        { k: 'Накопитель',    v: '128 / 256 / 512 GB' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '48 МП f/1.6, OIS' },
+        { k: 'Ультраширокая', v: '12 МП f/2.4' },
+        { k: 'Фронтальная',   v: '12 МП f/1.9, TrueDepth' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '4383 мАч' },
+        { k: 'Зарядка',       v: '20 Вт USB-C, MagSafe 15 Вт' },
+        { k: 'Автономность',  v: 'до 26 ч видео' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Материал',      v: 'Алюминий, Ceramic Shield' },
+        { k: 'Защита',        v: 'IP68' },
+        { k: 'Цвета',         v: 'Чёрный / Розовый / Жёлтый / Зелёный / Голубой' },
+      ]},
+    ],
+  },
+
+  {
+    id: 41, cat: 'phones', name: 'iPhone 15', brand: 'Apple', slug: 'apple',
+    tagline: 'Dynamic Island, 48 МП, USB-C — массовый хит',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1611472173362-3f53dbd65d80?w=800&q=90&fit=crop&crop=right',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.1" Super Retina XDR' },
+        { k: 'Разрешение',    v: '2556 × 1179, 460 PPI' },
+        { k: 'Технология',    v: 'OLED 60 Гц' },
+        { k: 'Яркость',       v: 'до 1000 нит SDR' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Apple A16 Bionic (4 нм)' },
+        { k: 'ОЗУ',           v: '6 GB' },
+        { k: 'Накопитель',    v: '128 / 256 / 512 GB' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '48 МП f/1.6, OIS' },
+        { k: 'Ультраширокая', v: '12 МП f/2.4' },
+        { k: 'Фронтальная',   v: '12 МП f/1.9, TrueDepth' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '3349 мАч' },
+        { k: 'Зарядка',       v: '20 Вт USB-C, MagSafe 15 Вт' },
+        { k: 'Автономность',  v: 'до 20 ч видео' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Материал',      v: 'Алюминий, Ceramic Shield' },
+        { k: 'Защита',        v: 'IP68' },
+        { k: 'Размеры',       v: '147.6 × 71.6 × 7.8 мм, 171 г' },
+        { k: 'Цвета',         v: 'Чёрный / Розовый / Жёлтый / Зелёный / Голубой' },
+      ]},
+    ],
+  },
+
+  // ── Apple iPhone 14 серия ──────────────────
+
+  {
+    id: 42, cat: 'phones', name: 'iPhone 14 Pro Max', brand: 'Apple', slug: 'apple',
+    tagline: 'Dynamic Island, A16 Pro, Always-On Display',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&q=90&fit=crop&crop=right',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.7" Super Retina XDR' },
+        { k: 'Разрешение',    v: '2796 × 1290, 460 PPI' },
+        { k: 'Технология',    v: 'OLED ProMotion 1–120 Гц, Always-On' },
+        { k: 'Яркость',       v: 'до 2000 нит HDR' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Apple A16 Bionic (4 нм)' },
+        { k: 'ОЗУ',           v: '6 GB' },
+        { k: 'Накопитель',    v: '128 / 256 / 512 GB / 1 TB' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '48 МП f/1.78, OIS, 4K@30fps Prores' },
+        { k: 'Ультраширокая', v: '12 МП f/2.2, макро' },
+        { k: 'Телефото',      v: '12 МП f/2.8, 3× оптический' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '4323 мАч' },
+        { k: 'Зарядка',       v: '27 Вт Lightning, MagSafe 15 Вт' },
+        { k: 'Автономность',  v: 'до 29 ч видео' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Материал',      v: 'Нерж. сталь + матовое стекло' },
+        { k: 'Защита',        v: 'IP68' },
+        { k: 'Цвета',         v: 'Deep Purple / Gold / Silver / Space Black' },
+      ]},
+    ],
+  },
+
+  {
+    id: 43, cat: 'phones', name: 'iPhone 14 Pro', brand: 'Apple', slug: 'apple',
+    tagline: 'Dynamic Island, 48 МП, Always-On Display',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=800&q=90&fit=crop&crop=right',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.1" Super Retina XDR' },
+        { k: 'Разрешение',    v: '2556 × 1179, 460 PPI' },
+        { k: 'Технология',    v: 'OLED ProMotion 1–120 Гц, Always-On' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Apple A16 Bionic (4 нм)' },
+        { k: 'ОЗУ',           v: '6 GB' },
+        { k: 'Накопитель',    v: '128 / 256 / 512 GB / 1 TB' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '48 МП f/1.78, OIS' },
+        { k: 'Ультраширокая', v: '12 МП f/2.2, макро' },
+        { k: 'Телефото',      v: '12 МП f/2.8, 3×' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '3200 мАч' },
+        { k: 'Зарядка',       v: '27 Вт, MagSafe 15 Вт' },
+        { k: 'Автономность',  v: 'до 23 ч видео' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Материал',      v: 'Нерж. сталь + матовое стекло' },
+        { k: 'Защита',        v: 'IP68' },
+        { k: 'Цвета',         v: 'Deep Purple / Gold / Silver / Space Black' },
+      ]},
+    ],
+  },
+
+  {
+    id: 44, cat: 'phones', name: 'iPhone 14', brand: 'Apple', slug: 'apple',
+    tagline: 'A15 Bionic, 12 МП двойная камера, Crash Detection',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=800&q=90&fit=crop&crop=right',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.1" Super Retina XDR' },
+        { k: 'Разрешение',    v: '2532 × 1170, 460 PPI' },
+        { k: 'Технология',    v: 'OLED 60 Гц' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Apple A15 Bionic (5 нм)' },
+        { k: 'ОЗУ',           v: '6 GB' },
+        { k: 'Накопитель',    v: '128 / 256 / 512 GB' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '12 МП f/1.5, OIS (Sensor-shift)' },
+        { k: 'Ультраширокая', v: '12 МП f/2.4' },
+        { k: 'Фронтальная',   v: '12 МП f/1.9, TrueDepth, автофокус' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '3279 мАч' },
+        { k: 'Зарядка',       v: '20 Вт Lightning, MagSafe 15 Вт' },
+        { k: 'Автономность',  v: 'до 20 ч видео' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Материал',      v: 'Алюминий, Ceramic Shield' },
+        { k: 'Защита',        v: 'IP68' },
+        { k: 'Цвета',         v: 'Midnight / Starlight / Blue / Purple / Red' },
+      ]},
+    ],
+  },
+
+  {
+    id: 45, cat: 'phones', name: 'iPhone 13', brand: 'Apple', slug: 'apple',
+    tagline: 'A15 Bionic, Cinematic Mode, улучшенная батарея',
+    badge: 'Топ цена',
+    img: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=800&q=90&fit=crop&crop=left',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.1" Super Retina XDR' },
+        { k: 'Разрешение',    v: '2532 × 1170, 460 PPI' },
+        { k: 'Технология',    v: 'OLED 60 Гц' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Apple A15 Bionic (5 нм)' },
+        { k: 'ОЗУ',           v: '4 GB' },
+        { k: 'Накопитель',    v: '128 / 256 / 512 GB' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '12 МП f/1.6, OIS' },
+        { k: 'Ультраширокая', v: '12 МП f/2.4' },
+        { k: 'Фронтальная',   v: '12 МП f/2.2, TrueDepth' },
+        { k: 'Cinematic Mode', v: 'Режим кино — боке в видео' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '3227 мАч' },
+        { k: 'Зарядка',       v: '20 Вт Lightning, MagSafe 15 Вт' },
+        { k: 'Автономность',  v: 'до 19 ч видео' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Материал',      v: 'Алюминий, Ceramic Shield' },
+        { k: 'Защита',        v: 'IP68' },
+        { k: 'Цвета',         v: 'Midnight / Starlight / Blue / Pink / Green / Red' },
+      ]},
+    ],
+  },
+
+  // ── Samsung Galaxy S25 серия ───────────────
+
+  {
+    id: 46, cat: 'phones', name: 'Samsung Galaxy S25+', brand: 'Samsung', slug: 'samsung',
+    tagline: '6.7" Dynamic AMOLED, Snapdragon 8 Elite, Galaxy AI',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1580910051074-3eb694886505?w=800&q=90&fit=crop&crop=left',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.7" Dynamic AMOLED 2X' },
+        { k: 'Разрешение',    v: '3088 × 1440, 505 PPI' },
+        { k: 'Частота',       v: '1–120 Гц адаптивная' },
+        { k: 'Яркость',       v: 'до 2600 нит' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Snapdragon 8 Elite (3 нм)' },
+        { k: 'ОЗУ',           v: '12 GB LPDDR5X' },
+        { k: 'Накопитель',    v: '256 / 512 GB UFS 4.0' },
+        { k: 'Galaxy AI',     v: 'Circle to Search, Live Translate, Note Assist' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '50 МП f/1.8, OIS' },
+        { k: 'Ультраширокая', v: '12 МП f/2.2' },
+        { k: 'Телефото',      v: '10 МП f/2.4, 3×' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '4900 мАч' },
+        { k: 'Зарядка',       v: '45 Вт, 15 Вт беспроводная' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Защита',        v: 'IP68' },
+        { k: 'Размеры',       v: '158.5 × 75.8 × 7.3 мм, 190 г' },
+        { k: 'Цвета',         v: 'Iceblue / Navy / Silver Shadow / Mint' },
+      ]},
+    ],
+  },
+
+  {
+    id: 47, cat: 'phones', name: 'Samsung Galaxy S25', brand: 'Samsung', slug: 'samsung',
+    tagline: 'Compact флагман — 6.2", Snapdragon 8 Elite, Galaxy AI',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1567581935884-3349723552ca?w=800&q=90&fit=crop&crop=left',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.2" Dynamic AMOLED 2X' },
+        { k: 'Разрешение',    v: '2340 × 1080, 416 PPI' },
+        { k: 'Частота',       v: '1–120 Гц адаптивная' },
+        { k: 'Яркость',       v: 'до 2600 нит' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Snapdragon 8 Elite (3 нм)' },
+        { k: 'ОЗУ',           v: '12 GB LPDDR5X' },
+        { k: 'Накопитель',    v: '128 / 256 GB UFS 4.0' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '50 МП f/1.8, OIS' },
+        { k: 'Ультраширокая', v: '12 МП f/2.2' },
+        { k: 'Телефото',      v: '10 МП f/2.4, 3×' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '4000 мАч' },
+        { k: 'Зарядка',       v: '25 Вт, 15 Вт беспроводная' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Защита',        v: 'IP68' },
+        { k: 'Размеры',       v: '147.1 × 70.5 × 7.2 мм, 162 г' },
+        { k: 'Цвета',         v: 'Iceblue / Navy / Silver Shadow / Mint' },
+      ]},
+    ],
+  },
+
+  {
+    id: 48, cat: 'phones', name: 'Samsung Galaxy S24 Ultra', brand: 'Samsung', slug: 'samsung',
+    tagline: 'S Pen, 200 МП, Snapdragon 8 Gen 3 — прошлогодний флагман',
+    badge: 'Топ цена',
+    img: 'https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=800&q=90&fit=crop',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.8" Dynamic AMOLED 2X' },
+        { k: 'Разрешение',    v: '3088 × 1440, 505 PPI' },
+        { k: 'Частота',       v: '1–120 Гц адаптивная' },
+        { k: 'Яркость',       v: 'до 2600 нит' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Snapdragon 8 Gen 3 (4 нм)' },
+        { k: 'ОЗУ',           v: '12 GB LPDDR5X' },
+        { k: 'Накопитель',    v: '256 / 512 GB / 1 TB UFS 4.0' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '200 МП f/1.7, OIS, 8K' },
+        { k: 'Ультраширокая', v: '12 МП f/2.2' },
+        { k: 'Телефото 5×',   v: '50 МП f/3.4, 5×' },
+        { k: 'Зум',           v: '100× Space Zoom' },
+      ]},
+      { group: 'S Pen', items: [
+        { k: 'Встроен',       v: 'Да' },
+        { k: 'Задержка',      v: '2.8 мс' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '5000 мАч' },
+        { k: 'Зарядка',       v: '45 Вт, 15 Вт беспроводная' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Материал',      v: 'Titanium + Gorilla Glass Armor' },
+        { k: 'Защита',        v: 'IP68' },
+        { k: 'Размеры',       v: '162.3 × 79.0 × 8.6 мм, 232 г' },
+        { k: 'Цвета',         v: 'Titanium Black / Gray / Violet / Yellow' },
+      ]},
+    ],
+  },
+
+  {
+    id: 49, cat: 'phones', name: 'Samsung Galaxy A36', brand: 'Samsung', slug: 'samsung',
+    tagline: '6.7" AMOLED, 50 МП, Galaxy AI, IP67',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1537944434965-cf4679d1a598?w=800&q=90&fit=crop&crop=right',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.7" Super AMOLED FHD+' },
+        { k: 'Разрешение',    v: '2340 × 1080' },
+        { k: 'Частота',       v: '120 Гц' },
+        { k: 'Яркость',       v: 'до 1900 нит' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Snapdragon 6 Gen 3 (4 нм)' },
+        { k: 'ОЗУ',           v: '8 / 12 GB' },
+        { k: 'Накопитель',    v: '128 / 256 GB + microSD' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '50 МП f/1.8, OIS' },
+        { k: 'Ультраширокая', v: '12 МП f/2.2' },
+        { k: 'Макро',         v: '5 МП f/2.4' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '5000 мАч' },
+        { k: 'Зарядка',       v: '45 Вт' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Защита',        v: 'IP67' },
+        { k: 'Цвета',         v: 'Awesome Black / White / Navy / Lavender' },
+      ]},
+    ],
+  },
+
+  {
+    id: 50, cat: 'phones', name: 'Samsung Galaxy A16', brand: 'Samsung', slug: 'samsung',
+    tagline: 'Бюджетный хит — 6.7" AMOLED, 50 МП, 5000 мАч',
+    badge: 'Топ цена',
+    img: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=90&fit=crop&crop=left',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.7" Super AMOLED FHD+' },
+        { k: 'Разрешение',    v: '2340 × 1080' },
+        { k: 'Частота',       v: '90 Гц' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'MediaTek Helio G99 (6 нм)' },
+        { k: 'ОЗУ',           v: '4 / 8 GB' },
+        { k: 'Накопитель',    v: '128 / 256 GB + microSD' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '50 МП f/1.8' },
+        { k: 'Ультраширокая', v: '5 МП f/2.2' },
+        { k: 'Макро',         v: '2 МП f/2.4' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '5000 мАч' },
+        { k: 'Зарядка',       v: '25 Вт' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Защита',        v: 'IP54' },
+        { k: 'Цвета',         v: 'Black / Light Green / Light Blue / Gold' },
+      ]},
+    ],
+  },
+
+  // ── Xiaomi / Redmi / POCO доп. серия ────────
+
+  {
+    id: 51, cat: 'phones', name: 'Xiaomi 14 Ultra', brand: 'Xiaomi', slug: 'xiaomi',
+    tagline: 'Leica Summilux 1", Snapdragon 8 Gen 3, 90 Вт',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1533228100845-08145b01de14?w=800&q=90&fit=crop&crop=left',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.73" LTPO AMOLED' },
+        { k: 'Разрешение',    v: '3200 × 1440, 522 PPI' },
+        { k: 'Частота',       v: '1–120 Гц' },
+        { k: 'Яркость',       v: '3000 нит пиковая' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Snapdragon 8 Gen 3 (4 нм)' },
+        { k: 'ОЗУ',           v: '12 / 16 GB LPDDR5X' },
+        { k: 'Накопитель',    v: '256 / 512 GB UFS 4.0' },
+      ]},
+      { group: 'Камера Leica', items: [
+        { k: 'Основная',      v: '50 МП Leica 1" Summilux, f/1.63' },
+        { k: 'Ультраширокая', v: '50 МП Leica, f/1.8' },
+        { k: 'Телефото',      v: '50 МП Leica APO, f/2.5, 3.2× / 5×' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '5000 мАч' },
+        { k: 'Проводная',     v: '90 Вт HyperCharge' },
+        { k: 'Беспроводная',  v: '80 Вт' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Защита',        v: 'IP68' },
+        { k: 'Размеры',       v: '161.4 × 75.3 × 9.2 мм, 219 г' },
+        { k: 'Цвета',         v: 'Black / White / Special Edition' },
+      ]},
+    ],
+  },
+
+  {
+    id: 52, cat: 'phones', name: 'Xiaomi 13T', brand: 'Xiaomi', slug: 'xiaomi',
+    tagline: 'Leica камера, 144 Гц, 67 Вт — за доступные деньги',
+    badge: 'Топ цена',
+    img: 'https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=800&q=90&fit=crop&crop=right',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.67" AMOLED' },
+        { k: 'Разрешение',    v: '2712 × 1220, 446 PPI' },
+        { k: 'Частота',       v: '144 Гц' },
+        { k: 'Яркость',       v: '2600 нит пиковая' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'MediaTek Dimensity 8200-Ultra (4 нм)' },
+        { k: 'ОЗУ',           v: '8 / 12 GB LPDDR5' },
+        { k: 'Накопитель',    v: '256 / 512 GB UFS 3.1' },
+      ]},
+      { group: 'Камера Leica', items: [
+        { k: 'Основная',      v: '50 МП Leica Summicron, f/1.88, OIS' },
+        { k: 'Ультраширокая', v: '12 МП Leica, f/2.2' },
+        { k: 'Телефото',      v: '50 МП Leica, f/1.9, 2.4×' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '5000 мАч' },
+        { k: 'Проводная',     v: '67 Вт' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Защита',        v: 'IP68' },
+        { k: 'Цвета',         v: 'Alpine Blue / Meadow Green / Black' },
+      ]},
+    ],
+  },
+
+  {
+    id: 53, cat: 'phones', name: 'Redmi Note 14 Pro', brand: 'Xiaomi', slug: 'xiaomi',
+    tagline: '50 МП OIS, 45 Вт, 6.67" AMOLED — хит среднего класса',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=800&q=90&fit=crop&crop=right',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.67" AMOLED FHD+' },
+        { k: 'Разрешение',    v: '2400 × 1080' },
+        { k: 'Частота',       v: '120 Гц' },
+        { k: 'Яркость',       v: '2100 нит пиковая' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Snapdragon 7s Gen 3 (4 нм)' },
+        { k: 'ОЗУ',           v: '8 / 12 GB' },
+        { k: 'Накопитель',    v: '128 / 256 GB' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '50 МП f/1.5, OIS' },
+        { k: 'Ультраширокая', v: '8 МП f/2.2' },
+        { k: 'Макро',         v: '2 МП f/2.4' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '5500 мАч' },
+        { k: 'Проводная',     v: '45 Вт' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Защита',        v: 'IP68' },
+        { k: 'Цвета',         v: 'Midnight Black / Ocean Teal / Lavender Purple' },
+      ]},
+    ],
+  },
+
+  {
+    id: 54, cat: 'phones', name: 'Redmi Note 13 Pro+', brand: 'Xiaomi', slug: 'xiaomi',
+    tagline: '200 МП, 120 Вт, IP68 — лучшее за свои деньги',
+    badge: 'Хит',
+    img: 'https://images.unsplash.com/photo-1574755393849-623942496936?w=800&q=90&fit=crop&crop=left',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.67" AMOLED CurvedEdge' },
+        { k: 'Разрешение',    v: '2712 × 1220, 446 PPI' },
+        { k: 'Частота',       v: '120 Гц' },
+        { k: 'Яркость',       v: '1800 нит' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'MediaTek Dimensity 7200-Ultra (4 нм)' },
+        { k: 'ОЗУ',           v: '8 / 12 / 16 GB LPDDR5' },
+        { k: 'Накопитель',    v: '256 / 512 GB UFS 3.1' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '200 МП f/1.65, OIS' },
+        { k: 'Ультраширокая', v: '8 МП f/2.2' },
+        { k: 'Макро',         v: '2 МП f/2.4' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '5000 мАч' },
+        { k: 'Проводная',     v: '120 Вт HyperCharge' },
+        { k: 'Беспроводная',  v: '5 Вт' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Защита',        v: 'IP68' },
+        { k: 'Цвета',         v: 'Aurora Purple / Fusion Black / Iceberg Blue' },
+      ]},
+    ],
+  },
+
+  {
+    id: 55, cat: 'phones', name: 'POCO F7 Pro', brand: 'Xiaomi', slug: 'xiaomi',
+    tagline: 'Snapdragon 8 Gen 3, 120 Вт, 6.67" AMOLED — скоростной флагман',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=800&q=90&fit=crop&crop=left',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.67" AMOLED' },
+        { k: 'Разрешение',    v: '2712 × 1220, 446 PPI' },
+        { k: 'Частота',       v: '120 Гц' },
+        { k: 'Яркость',       v: '4000 нит пиковая' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Snapdragon 8 Gen 3 (4 нм)' },
+        { k: 'ОЗУ',           v: '12 / 16 GB LPDDR5T' },
+        { k: 'Накопитель',    v: '256 / 512 GB / 1 TB UFS 4.0' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '50 МП f/1.6, OIS' },
+        { k: 'Ультраширокая', v: '8 МП f/2.2' },
+        { k: 'Фронтальная',   v: '20 МП f/2.2' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '5110 мАч' },
+        { k: 'Проводная',     v: '120 Вт Turbo Charge' },
+        { k: 'Беспроводная',  v: '50 Вт' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Защита',        v: 'IP68' },
+        { k: 'Цвета',         v: 'Black / White / Green' },
+      ]},
+    ],
+  },
+
+  {
+    id: 56, cat: 'phones', name: 'POCO M6 Pro', brand: 'Xiaomi', slug: 'xiaomi',
+    tagline: '6.67" AMOLED, 67 Вт, 64 МП — самый доступный',
+    badge: 'Топ цена',
+    img: 'https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=800&q=90&fit=crop&crop=right',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.67" AMOLED FHD+' },
+        { k: 'Разрешение',    v: '2400 × 1080' },
+        { k: 'Частота',       v: '120 Гц' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'MediaTek Helio G99-Ultra (6 нм)' },
+        { k: 'ОЗУ',           v: '8 / 12 GB' },
+        { k: 'Накопитель',    v: '256 GB + microSD' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '64 МП f/1.79' },
+        { k: 'Ультраширокая', v: '8 МП f/2.2' },
+        { k: 'Макро',         v: '2 МП' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '5000 мАч' },
+        { k: 'Проводная',     v: '67 Вт Turbo Charge' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Цвета',         v: 'Black / Blue / Purple' },
+      ]},
+    ],
+  },
+
+  // ── OnePlus доп. серия ─────────────────────
+
+  {
+    id: 57, cat: 'phones', name: 'OnePlus 12R', brand: 'OnePlus', slug: 'oneplus',
+    tagline: 'Snapdragon 8 Gen 2, 100 Вт, 6.78" AMOLED — хит',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1596558450268-9c27524ba856?w=800&q=90&fit=crop&crop=right',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.78" LTPO AMOLED' },
+        { k: 'Разрешение',    v: '2780 × 1264, 450 PPI' },
+        { k: 'Частота',       v: '1–120 Гц LTPO4' },
+        { k: 'Яркость',       v: '4500 нит пиковая' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Snapdragon 8 Gen 2 (4 нм)' },
+        { k: 'ОЗУ',           v: '8 / 16 GB LPDDR5X' },
+        { k: 'Накопитель',    v: '128 / 256 GB UFS 3.1' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '50 МП Sony IMX890, f/1.8, OIS' },
+        { k: 'Ультраширокая', v: '8 МП f/2.2' },
+        { k: 'Макро',         v: '2 МП f/2.4' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '5500 мАч' },
+        { k: 'Проводная',     v: '100 Вт SUPERVOOC' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Защита',        v: 'IP65' },
+        { k: 'Цвета',         v: 'Cool Blue / Iron Gray / Lava Red' },
+      ]},
+    ],
+  },
+
+  // ── Realme ────────────────────────────────
+
+  {
+    id: 58, cat: 'phones', name: 'Realme GT 7 Pro', brand: 'Realme', slug: 'realme',
+    tagline: 'Snapdragon 8 Elite, 120 Вт, IP69 — мощный и живучий',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1616410011236-7a42121dd981?w=800&q=90&fit=crop&crop=right',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '6.78" LTPO AMOLED' },
+        { k: 'Разрешение',    v: '2780 × 1264, 450 PPI' },
+        { k: 'Частота',       v: '1–120 Гц' },
+        { k: 'Яркость',       v: '4500 нит пиковая' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Snapdragon 8 Elite (3 нм)' },
+        { k: 'ОЗУ',           v: '12 / 16 GB LPDDR5T' },
+        { k: 'Накопитель',    v: '256 / 512 GB UFS 4.0' },
+      ]},
+      { group: 'Камера', items: [
+        { k: 'Основная',      v: '50 МП Sony LYT-808, f/1.8, OIS' },
+        { k: 'Ультраширокая', v: '50 МП f/2.2' },
+        { k: 'Телефото',      v: '50 МП f/2.6, 3×' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '6500 мАч' },
+        { k: 'Проводная',     v: '120 Вт SUPERVOOC' },
+        { k: 'Беспроводная',  v: '50 Вт' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Защита',        v: 'IP69' },
+        { k: 'Цвета',         v: 'Black / Blue / Special' },
+      ]},
+    ],
+  },
+
   // ══════════════════════════════════════════
   //  ПЛАНШЕТЫ
   // ══════════════════════════════════════════
+
+  {
+    id: 59, cat: 'tablets', name: 'iPad Air 13" M2', brand: 'Apple', slug: 'apple',
+    tagline: 'M2, 13" Liquid Retina, Apple Pencil Pro',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&q=90&fit=crop&crop=left',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '13" Liquid Retina' },
+        { k: 'Разрешение',    v: '2732 × 2048, 264 PPI' },
+        { k: 'Яркость',       v: '600 нит' },
+        { k: 'True Tone',     v: 'Да, P3 широкий охват' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Apple M2 (5 нм)' },
+        { k: 'CPU',           v: '8-core' },
+        { k: 'GPU',           v: '10-core' },
+        { k: 'ОЗУ',           v: '8 GB' },
+        { k: 'Накопитель',    v: '128 / 256 / 512 GB / 1 TB' },
+      ]},
+      { group: 'Аксессуары', items: [
+        { k: 'Стилус',        v: 'Apple Pencil Pro / Pencil 2' },
+        { k: 'Клавиатура',    v: 'Magic Keyboard 13"' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Вес',           v: '617 г' },
+        { k: 'Толщина',       v: '6.1 мм' },
+        { k: 'Цвета',         v: 'Blue / Purple / Starlight / Space Gray' },
+      ]},
+    ],
+  },
+
+  {
+    id: 60, cat: 'tablets', name: 'iPad mini 7', brand: 'Apple', slug: 'apple',
+    tagline: 'Компактный планшет 8.3", A17 Pro, Apple Intelligence',
+    badge: 'Новинка',
+    img: 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&q=90&fit=crop&crop=right',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '8.3" Liquid Retina' },
+        { k: 'Разрешение',    v: '2266 × 1488, 326 PPI' },
+        { k: 'Яркость',       v: '600 нит, True Tone' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Apple A17 Pro (3 нм)' },
+        { k: 'ОЗУ',           v: '8 GB' },
+        { k: 'Накопитель',    v: '128 / 256 / 512 GB' },
+        { k: 'Apple Intelligence', v: 'Да — ИИ-функции' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Вес',           v: '293 г' },
+        { k: 'Толщина',       v: '6.3 мм' },
+        { k: 'Защита',        v: 'IPX4' },
+        { k: 'Цвета',         v: 'Blue / Purple / Starlight / Space Gray' },
+      ]},
+    ],
+  },
+
+  {
+    id: 61, cat: 'tablets', name: 'Samsung Galaxy Tab S10+', brand: 'Samsung', slug: 'samsung',
+    tagline: '12.4" Dynamic AMOLED, S Pen, DeX, Snapdragon 8 Gen 3',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&q=90&fit=crop&crop=left',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '12.4" Dynamic AMOLED 2X' },
+        { k: 'Разрешение',    v: '2800 × 1752, 266 PPI' },
+        { k: 'Частота',       v: '120 Гц' },
+        { k: 'Яркость',       v: '930 нит' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Snapdragon 8 Gen 3 (4 нм)' },
+        { k: 'ОЗУ',           v: '12 GB' },
+        { k: 'Накопитель',    v: '256 / 512 GB UFS 4.0 + microSD' },
+      ]},
+      { group: 'S Pen', items: [
+        { k: 'В комплекте',   v: 'Да' },
+        { k: 'Задержка',      v: '2.8 мс' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '10090 мАч' },
+        { k: 'Зарядка',       v: '45 Вт, 15 Вт беспроводная' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Толщина',       v: '5.6 мм, 571 г' },
+        { k: 'Цвет',          v: 'Moonstone Gray / Platinum Silver' },
+      ]},
+    ],
+  },
+
+  {
+    id: 62, cat: 'tablets', name: 'Samsung Galaxy Tab A9+', brand: 'Samsung', slug: 'samsung',
+    tagline: '11" IPS LCD, Snapdragon 695, DeX — доступный выбор',
+    badge: 'Топ цена',
+    img: 'https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&q=90&fit=crop&crop=right',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '11" IPS LCD' },
+        { k: 'Разрешение',    v: '1920 × 1200, 206 PPI' },
+        { k: 'Яркость',       v: '400 нит' },
+        { k: 'Частота',       v: '90 Гц' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Snapdragon 695 5G (6 нм)' },
+        { k: 'ОЗУ',           v: '4 / 8 GB' },
+        { k: 'Накопитель',    v: '64 / 128 GB + microSD' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '7040 мАч' },
+        { k: 'Зарядка',       v: '15 Вт' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Вес',           v: '480 г' },
+        { k: 'Цвет',          v: 'Graphite / Silver / Navy' },
+      ]},
+    ],
+  },
+
+  {
+    id: 63, cat: 'tablets', name: 'Xiaomi Pad 7 Pro', brand: 'Xiaomi', slug: 'xiaomi',
+    tagline: '12.1" LCD 144 Гц, Snapdragon 8s Gen 3, стилус Xiaomi Focus',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&q=90&fit=crop',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '12.1" LCD 3K' },
+        { k: 'Разрешение',    v: '3048 × 1912, 296 PPI' },
+        { k: 'Частота',       v: '144 Гц' },
+        { k: 'Яркость',       v: '900 нит' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Чип',           v: 'Snapdragon 8s Gen 3 (4 нм)' },
+        { k: 'ОЗУ',           v: '8 / 12 GB LPDDR5X' },
+        { k: 'Накопитель',    v: '256 / 512 GB UFS 4.0' },
+      ]},
+      { group: 'Аккумулятор', items: [
+        { k: 'Ёмкость',       v: '10000 мАч' },
+        { k: 'Зарядка',       v: '45 Вт HyperCharge' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Вес',           v: '571 г' },
+        { k: 'Толщина',       v: '5.9 мм' },
+        { k: 'Цвета',         v: 'Graphite Gray / Moonlight Silver' },
+      ]},
+    ],
+  },
 
   {
     id: 30, cat: 'tablets', name: 'iPad Pro 13" M4', brand: 'Apple', slug: 'apple',
@@ -1162,6 +2043,179 @@ export const products = [
   // ══════════════════════════════════════════
   //  НОУТБУКИ
   // ══════════════════════════════════════════
+
+  {
+    id: 64, cat: 'laptops', name: 'MacBook Air 13" M4', brand: 'Apple', slug: 'apple',
+    tagline: 'Самый тонкий Air — M4, 18 ч автономности',
+    badge: 'Хит',
+    img: 'https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=800&q=90&fit=crop&crop=right',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '13.6" Liquid Retina' },
+        { k: 'Разрешение',    v: '2560 × 1664, 224 PPI' },
+        { k: 'Яркость',       v: '500 нит, True Tone, P3' },
+      ]},
+      { group: 'Apple M4', items: [
+        { k: 'CPU',           v: '10-core (4P + 6E)' },
+        { k: 'GPU',           v: '10-core' },
+        { k: 'Unified Memory', v: '16 / 24 / 32 GB' },
+        { k: 'SSD',           v: '256 GB / 512 GB / 1 TB / 2 TB' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Вес',           v: '1.24 кг' },
+        { k: 'Толщина',       v: '11.3 мм' },
+        { k: 'Автономность',  v: 'до 18 часов' },
+        { k: 'Цвета',         v: 'Midnight / Starlight / Sky Blue / Purple' },
+      ]},
+    ],
+  },
+
+  {
+    id: 65, cat: 'laptops', name: 'MacBook Pro 14" M4 Pro', brand: 'Apple', slug: 'apple',
+    tagline: 'M4 Pro, Thunderbolt 5, ProMotion 120 Гц — компактный зверь',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=90&fit=crop&crop=right',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '14.2" Liquid Retina XDR' },
+        { k: 'Разрешение',    v: '3024 × 1964, 254 PPI' },
+        { k: 'Яркость',       v: '1600 нит HDR, 1000 нит SDR' },
+        { k: 'Частота',       v: 'ProMotion 10–120 Гц' },
+      ]},
+      { group: 'Apple M4 Pro', items: [
+        { k: 'CPU',           v: '12-core (8P + 4E)' },
+        { k: 'GPU',           v: '20-core Metal GPU' },
+        { k: 'Unified Memory', v: '24 / 48 GB' },
+        { k: 'SSD',           v: '512 GB / 1 TB / 2 TB' },
+      ]},
+      { group: 'Порты', items: [
+        { k: 'Thunderbolt 5', v: '3× USB-C' },
+        { k: 'HDMI',          v: 'HDMI 2.1' },
+        { k: 'MagSafe',       v: 'MagSafe 3 (100 Вт)' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Вес',           v: '1.61 кг' },
+        { k: 'Автономность',  v: 'до 17 ч видео' },
+        { k: 'Цвета',         v: 'Space Black / Silver' },
+      ]},
+    ],
+  },
+
+  {
+    id: 66, cat: 'laptops', name: 'Lenovo ThinkPad X1 Carbon Gen 13', brand: 'Lenovo', slug: 'lenovo',
+    tagline: 'Бизнес-флагман — Intel Ultra 7, 1 кг, 15 ч работы',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=90&fit=crop',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '14" IPS / OLED' },
+        { k: 'Разрешение',    v: '2880 × 1800 OLED или 1920 × 1200 IPS' },
+        { k: 'Яркость',       v: '400 нит (IPS), 600 нит (OLED)' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Процессор',     v: 'Intel Core Ultra 7 165H / 255H (Intel 4)' },
+        { k: 'ОЗУ',           v: '16 / 32 / 64 GB LPDDR5X' },
+        { k: 'SSD',           v: '512 GB / 1 TB / 2 TB PCIe 4.0' },
+      ]},
+      { group: 'Порты', items: [
+        { k: 'Thunderbolt 4', v: '2× USB-C' },
+        { k: 'USB-A',         v: '2× USB-A 3.2' },
+        { k: 'HDMI',          v: 'HDMI 2.1' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Вес',           v: 'от 1.03 кг' },
+        { k: 'Материал',      v: 'Углепластик (Carbon Fiber)' },
+        { k: 'Автономность',  v: 'до 15 ч' },
+        { k: 'Цвет',          v: 'Deep Black' },
+      ]},
+    ],
+  },
+
+  {
+    id: 67, cat: 'laptops', name: 'Dell XPS 15 9530', brand: 'Dell', slug: 'dell',
+    tagline: 'OLED 3.5K, RTX 4060, Intel Core i9 — контент-мастер',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=800&q=90&fit=crop',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '15.6" OLED 3.5K' },
+        { k: 'Разрешение',    v: '3456 × 2160, 265 PPI' },
+        { k: 'Яркость',       v: '400 нит, DCI-P3 100%' },
+        { k: 'Частота',       v: '60 Гц (OLED)' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Процессор',     v: 'Intel Core i7-13700H / i9-13900H' },
+        { k: 'Видеокарта',    v: 'NVIDIA RTX 4060 8 GB' },
+        { k: 'ОЗУ',           v: '16 / 32 / 64 GB DDR5' },
+        { k: 'SSD',           v: '512 GB / 1 TB / 2 TB PCIe 4.0' },
+      ]},
+      { group: 'Порты', items: [
+        { k: 'Thunderbolt 4', v: '2× USB-C' },
+        { k: 'USB-A',         v: '1× USB-A 3.2' },
+        { k: 'SD-карта',      v: 'SD UHS-III' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Вес',           v: '1.86 кг' },
+        { k: 'Материал',      v: 'Алюминий + карбон' },
+        { k: 'Цвет',          v: 'Platinum Silver / Graphite' },
+      ]},
+    ],
+  },
+
+  {
+    id: 68, cat: 'laptops', name: 'ASUS VivoBook 16 2025', brand: 'ASUS', slug: 'asus',
+    tagline: 'AMD Ryzen 7, OLED 3.2K, лёгкий и доступный',
+    badge: 'Топ цена',
+    img: 'https://images.unsplash.com/photo-1484788984921-03950022c9ef?w=800&q=90&fit=crop',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '16" OLED 3.2K' },
+        { k: 'Разрешение',    v: '3200 × 2000, 235 PPI' },
+        { k: 'Частота',       v: '120 Гц' },
+        { k: 'Яркость',       v: '600 нит, DCI-P3 100%' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Процессор',     v: 'AMD Ryzen 7 8845H / Ryzen 9 9955HX' },
+        { k: 'ОЗУ',           v: '16 / 32 GB LPDDR5X' },
+        { k: 'SSD',           v: '512 GB / 1 TB PCIe 4.0' },
+        { k: 'Видеокарта',    v: 'AMD Radeon 780M (интегр.) / RTX 4050' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Вес',           v: '1.88 кг' },
+        { k: 'Автономность',  v: 'до 10 ч' },
+        { k: 'Цвета',         v: 'Cool Silver / Indie Black / Quiet Blue' },
+      ]},
+    ],
+  },
+
+  {
+    id: 69, cat: 'laptops', name: 'Samsung Galaxy Book5 Pro 360', brand: 'Samsung', slug: 'samsung',
+    tagline: '2-в-1 AMOLED, Intel Core Ultra 7, S Pen в комплекте',
+    badge: null,
+    img: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=90&fit=crop&crop=right',
+    specs: [
+      { group: 'Дисплей', items: [
+        { k: 'Диагональ',     v: '16" Dynamic AMOLED 2X' },
+        { k: 'Разрешение',    v: '2880 × 1800, 204 PPI' },
+        { k: 'Яркость',       v: '500 нит, 120 Гц' },
+        { k: 'Формат',        v: '2-в-1, сенсорный, 360°' },
+      ]},
+      { group: 'Производительность', items: [
+        { k: 'Процессор',     v: 'Intel Core Ultra 7 258V / Ultra 9 288V' },
+        { k: 'ОЗУ',           v: '16 / 32 GB LPDDR5X' },
+        { k: 'SSD',           v: '512 GB / 1 TB PCIe 4.0' },
+      ]},
+      { group: 'Особенности', items: [
+        { k: 'S Pen',         v: 'В комплекте, 4096 уровней давления' },
+        { k: 'Galaxy AI',     v: 'Note Assist, Transcript Assist, Live Translate' },
+      ]},
+      { group: 'Корпус', items: [
+        { k: 'Вес',           v: '1.70 кг' },
+        { k: 'Автономность',  v: 'до 17 ч' },
+        { k: 'Цвет',          v: 'Moonstone Gray' },
+      ]},
+    ],
+  },
 
   {
     id: 32, cat: 'laptops', name: 'MacBook Pro 16" M4 Max', brand: 'Apple', slug: 'apple',
@@ -1342,8 +2396,8 @@ export const products = [
 ]
 
 export const categories = [
-  { id: 'phones',     label: 'Смартфоны',  count: '29 моделей',  img: 'https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=700&q=85&fit=crop', color: '#7B61FF' },
-  { id: 'laptops',    label: 'Ноутбуки',   count: '3 модели',    img: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=700&q=85&fit=crop', color: '#00D2FF' },
-  { id: 'tablets',    label: 'Планшеты',   count: '2 модели',    img: 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=700&q=85&fit=crop', color: '#34D399' },
+  { id: 'phones',     label: 'Смартфоны',  count: '58 моделей',  img: 'https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=700&q=85&fit=crop', color: '#7B61FF' },
+  { id: 'laptops',    label: 'Ноутбуки',   count: '9 моделей',   img: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=700&q=85&fit=crop', color: '#00D2FF' },
+  { id: 'tablets',    label: 'Планшеты',   count: '7 моделей',   img: 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=700&q=85&fit=crop', color: '#34D399' },
   { id: 'headphones', label: 'Наушники',   count: '3 модели',    img: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=700&q=85&fit=crop', color: '#F472B6' },
 ]
